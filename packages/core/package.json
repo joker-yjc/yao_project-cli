@@ -1,11 +1,14 @@
 {
   "name": "@yao_project-cli/core",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "> TODO: description",
   "author": "Yao JC <510247045@qq.com>",
   "homepage": "",
   "license": "ISC",
   "main": "lib/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -15,5 +18,6 @@
   ],
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
-  }
+  },
+  "gitHead": "0a5addeab4ddc672617dd2ada9af837f7d04a017"
 }
